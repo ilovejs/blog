@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/blog/img/vim1/vim_macbook.jpg"
+image = "/img/vim1/vim_macbook.jpg"
 date = 2017-10-14T13:07:01+11:00
 title = "Exploding lines into lines"
 weight = 0
@@ -58,18 +58,18 @@ Vim has `i` for insert, `p` for paste, `a` for append.
 
 - batch insert after cursor (`shift + A`)
 
-![visual_block+yank+paste](/blog/img/vim1/multi-linee-shiftA.gif)
+![visual_block+yank+paste](/img/vim1/multi-linee-shiftA.gif)
 
 - batch insert before cursor (`shift + i`)
 
-![visual_block+yank+paste](/blog/img/vim1/insert-in-middle.gif)
+![visual_block+yank+paste](/img/vim1/insert-in-middle.gif)
 
-![visual_block+yank+paste](/blog/img/vim1/prepend-insert.gif)
+![visual_block+yank+paste](/img/vim1/prepend-insert.gif)
 
 - append (`p`)
 
-![visual_block+yank+paste](/blog/img/vim1/multiline-paste.gif)
+![visual_block+yank+paste](/img/vim1/multiline-paste.gif)
 
 - prepend (`shift + p`)
 
-![visual_block+yank+paste](/blog/img/vim1/prepend.gif)
+![visual_block+yank+paste](/img/vim1/prepend.gif)

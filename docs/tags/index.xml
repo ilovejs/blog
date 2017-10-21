@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Michael&#39;s Toolbox</title>
-    <link>https://ilovejs.github.io/blog/tags/</link>
+    <link>https://hurryduckling.com/tags/</link>
     <description>Recent content in Tags on Michael&#39;s Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
     <lastBuildDate>Sat, 21 Oct 2017 16:04:01 +1100</lastBuildDate>
     
-	<atom:link href="https://ilovejs.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hurryduckling.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogging</title>
-      <link>https://ilovejs.github.io/blog/tags/blogging/</link>
+      <link>https://hurryduckling.com/tags/blogging/</link>
       <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/tags/blogging/</guid>
+      <guid>https://hurryduckling.com/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clojure</title>
-      <link>https://ilovejs.github.io/blog/tags/clojure/</link>
+      <link>https://hurryduckling.com/tags/clojure/</link>
       <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/tags/clojure/</guid>
+      <guid>https://hurryduckling.com/tags/clojure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://ilovejs.github.io/blog/tags/development/</link>
+      <link>https://hurryduckling.com/tags/development/</link>
       <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/tags/development/</guid>
+      <guid>https://hurryduckling.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fast</title>
-      <link>https://ilovejs.github.io/blog/tags/fast/</link>
+      <link>https://hurryduckling.com/tags/fast/</link>
       <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/tags/fast/</guid>
+      <guid>https://hurryduckling.com/tags/fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://ilovejs.github.io/blog/tags/go/</link>
+      <link>https://hurryduckling.com/tags/go/</link>
       <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/tags/go/</guid>
+      <guid>https://hurryduckling.com/tags/go/</guid>
       <description></description>
     </item>
     

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About me on Michael&#39;s Toolbox</title>
-    <link>https://ilovejs.github.io/blog/about/</link>
+    <link>https://hurryduckling.com/about/</link>
     <description>Recent content in About me on Michael&#39;s Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
     <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
     
-	<atom:link href="https://ilovejs.github.io/blog/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hurryduckling.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

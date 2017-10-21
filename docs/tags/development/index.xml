@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Michael&#39;s Toolbox</title>
-    <link>https://ilovejs.github.io/blog/tags/development/</link>
+    <link>https://hurryduckling.com/tags/development/</link>
     <description>Recent content in Development on Michael&#39;s Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
     <lastBuildDate>Sat, 21 Oct 2017 16:04:01 +1100</lastBuildDate>
     
-	<atom:link href="https://ilovejs.github.io/blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hurryduckling.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Note taken from David Nolen&#39;s Talk on Clojure Spec</title>
-      <link>https://ilovejs.github.io/blog/portfolio/clojure_spec/</link>
+      <link>https://hurryduckling.com/portfolio/clojure_spec/</link>
       <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/portfolio/clojure_spec/</guid>
+      <guid>https://hurryduckling.com/portfolio/clojure_spec/</guid>
       <description>Watched a talk by David Nolen about clojure.spec
 URL: https://www.youtube.com/watch?v=Rlu-X5AqWXw
 New features give you ability to:
@@ -26,10 +26,10 @@ New features give you ability to:
     
     <item>
       <title>Exploding lines into lines</title>
-      <link>https://ilovejs.github.io/blog/portfolio/vimmer/</link>
+      <link>https://hurryduckling.com/portfolio/vimmer/</link>
       <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
       
-      <guid>https://ilovejs.github.io/blog/portfolio/vimmer/</guid>
+      <guid>https://hurryduckling.com/portfolio/vimmer/</guid>
       <description>This tutorial teach you how to paste a block of text into individual lines. Gif animation display at the end.
 Suppose you have: // Comment1 // Comment2 // Comment3  To be exploded into each line of below:
 foo = 1; bar = 2; baz = 3;  As this form:
