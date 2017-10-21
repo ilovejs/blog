@@ -7,3 +7,4 @@ hugo -s --help
 
 hugo
 
+git add . && git commit -m 'fixes' && git push -u origin master
