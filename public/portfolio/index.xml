@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Michael&#39;s Toolbox</title>
+    <link>/portfolio/</link>
+    <description>Recent content in Portfolios on Michael&#39;s Toolbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
+    <lastBuildDate>Sat, 21 Oct 2017 16:04:01 +1100</lastBuildDate>
+    
+	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Note taken from David Nolen&#39;s Talk on Clojure Spec</title>
+      <link>/portfolio/clojure_spec/</link>
+      <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
+      
+      <guid>/portfolio/clojure_spec/</guid>
+      <description>Watched a talk by David Nolen about clojure.spec
+URL: https://www.youtube.com/watch?v=Rlu-X5AqWXw
+New features give you ability to:
+ run quick check kind of test, find the minimal failing case. define function spec recursively parse the data using spec, so it works on tree write spec to check existing function find the problem of open source project, get rid of positional argument, because they are error-proned. generate examples from your spec, using exercise merge spec by s/cat describe a spec describe  Write code that meet expectations !</description>
+    </item>
+    
+    <item>
+      <title>Exploding lines into lines</title>
+      <link>/portfolio/vimmer/</link>
+      <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
+      
+      <guid>/portfolio/vimmer/</guid>
+      <description>This tutorial teach you how to paste a block of text into individual lines. Gif animation display at the end.
+Suppose you have: // Comment1 // Comment2 // Comment3  To be exploded into each line of below:
+foo = 1; bar = 2; baz = 3;  As this form:
+foo = 1; //Comment1 bar = 2; //Comment2 baz = 3; //Comment3  Vscode and Sublime can copy a block then use mutil-line editing shortcut to write to multiple lines.</description>
+    </item>
+    
+  </channel>
+</rss>
