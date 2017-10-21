@@ -95,9 +95,11 @@ https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/
 
 http://continuousfailure.com/post/s3_blog/
 
+[Github Official guidline for custom domain]
+https://help.github.com/articles/quick-start-setting-up-a-custom-domain/
 
 [(CNAME) Setting up custom domain with Github Pages]
-
+(this is wrong, you should not use A record, otherwise github will send email to you for fixing)
 http://abhipandey.com/2015/10/setting-up-custom-domain-with-github-pages/
 
 
