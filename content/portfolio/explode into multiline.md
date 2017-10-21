@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/img/vim1/vim_macbook.jpg"
+image = "/hugo_blog/img/vim1/vim_macbook.jpg"
 date = 2017-10-14T13:07:01+11:00
 title = "Exploding lines into lines"
 weight = 0
