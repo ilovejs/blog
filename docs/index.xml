@@ -125,6 +125,17 @@ New features give you ability to:
     </item>
     
     <item>
+      <title></title>
+      <link>http://blog.hurryduckling.com/portfolio/build_hugo_blog/</link>
+      <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
+      
+      <guid>http://blog.hurryduckling.com/portfolio/build_hugo_blog/</guid>
+      <description>How to build hugo static blog on github with custom domain
+Tools: github, git, hugo, amazon route 53, buy your domain via amazon $12 dollar, markdown, vscode
+I&amp;rsquo;v built this blog with hugo + theme called &amp;lsquo;hugo-creative-portfolio-theme&amp;rsquo; There are heaps of theme you can download. So hugo has features: 1. markdown to html 2. local watch to see changes 3. community support for themes etc. 4. written in go not node.</description>
+    </item>
+    
+    <item>
       <title>Exploding lines into lines</title>
       <link>http://blog.hurryduckling.com/portfolio/vimmer/</link>
       <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Michael&#39;s Toolbox">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="http://blog.hurryduckling.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="http://blog.hurryduckling.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://blog.hurryduckling.com/css/owl.carousel.css">
+<link rel="stylesheet" href="http://blog.hurryduckling.com/css/owl.theme.css">
+
+
+  <link href="http://blog.hurryduckling.com/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="http://blog.hurryduckling.com/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="http://blog.hurryduckling.com/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">Michael&#39;s Toolbox</a></h1>
+    
+      <p class="sidebar-p">I am data engineer, ex-scientist and backend developer with more than 7 years of experience in technology.</p>
+    
+      <p class="sidebar-p">Originally from Shanghai, now based in Sydney.</p>
+    
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="http://blog.hurryduckling.com/">Home</a></li>
+      
+        <li><a href="http://blog.hurryduckling.com/about/">About</a></li>
+      
+        <li><a href="http://blog.hurryduckling.com/contact/">Contact</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  <a href="https://instagram/undefindedweather" title="" class="external instagram">
+    <i class="fa fa-instagram"></i>
+  </a>
+  
+  
+  <a href="mailto:comp1927@gmail.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/michael-zhuang-53199721" data-animate-hover="pulse">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  <a href="https://stackoverflow.com/users/479008/codefarmer" data-animate-hover="pulse">
+    <i class="fa fa-stack-overflow"></i>
+  </a>
+  
+  
+  <a href="https://github.com/ilovejs" data-animate-hover="pulse">
+    <i class="fa fa-github"></i>
+  </a>
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2017 Michael Zhuang (SYD)
+        
+        <br>
+<br>
+Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+<br>
+Ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="http://blog.hurryduckling.com">Michael&#39;s Toolbox</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1></h1>
+         
+
+<p>How to build hugo static blog on github with custom domain</p>
+
+<p>Tools:
+    github, git, hugo, amazon route 53, buy your domain via amazon $12 dollar, markdown, vscode</p>
+
+<p>I&rsquo;v built this blog with hugo + theme called &lsquo;hugo-creative-portfolio-theme&rsquo;
+There are heaps of theme you can download. So hugo has features:
+1. markdown to html
+2. local watch to see changes
+3. community support for themes etc.
+4. written in go not node.js</p>
+
+<p>The process is:
+* write blog in markdown format
+* generate static change
+* add CNAME file for custom domain
+* buy domain from amazon, or somewhere, setup there (see image below)
+* deploy to github as your &lsquo;git page&rsquo; (setup as imgage below)
+* test dns record in yoru local</p>
+
+<p>for future:
+you can update any theme, then push to git, git use amazon as dns lookup as to replace
+[username].github.io as your default one.</p>
+
+<h2 id="downside">Downside:</h2>
+
+<p>git is not good for SEO&hellip; I disagree with than, hugo has a boost to generate sitemap.xml and every bit you can control.</p>
+
+<p>once in the deploy folder. You can add anything you like. Hugo won&rsquo;t delete them !!! Thanks</p>
+
+<p>The development circle is slim and quick. I manage to see update in seconds.</p>
+
+<p>Having amazon route 53 as dns has advantage:
+1. you can play with s3 static page solution
+2. play with cloudfront, get used to aws
+3. provide dns alias [powerful] and easy to see changes (&lt;1 mins to propagate)
+4. cache dns records with time you decide.</p>
+
+<h2 id="things-need-to-care">Things need to care:</h2>
+
+<p>I use <code>public</code> folder in version control to push to github. I&rsquo;v put CNAME file in the root (i&rsquo;ll show your structure below). In my case i rename <code>public</code> to <code>docs</code> to match github convention.</p>
+
+<p><a href="https://github.com/ilovejs/blog/blob/master/docs/CNAME">My CNAME file</a></p>
+
+<h2 id="aws">AWS:</h2>
+
+<p><img src="/img/aws.png" alt="img" /></p>
+
+<h2 id="github-repo">Github repo:</h2>
+
+<p><img src="/img/github.png" alt="img" /></p>
+
+<h2 id="git-repo-setting-for-git-page">Git repo setting for git page:</h2>
+
+<p><img src="/img/git_page_setups.png" alt="img" /></p>
+
+<h2 id="hugo-folder-structure">Hugo folder structure:</h2>
+
+<p><img src="/img/hugo.png" alt="img" /></p>
+
+<h2 id="command-to-debug-network">Command to debug network:</h2>
+
+<p>Shows type of records (A, SOA, CNAME):
+dig www.hurryduckling.com +nostats +nocomments +nocmd
+dig blog.hurryduckling.com +nostats +nocomments +nocmd
+dig ilovejs.github.io +noall +answer</p>
+
+<p>These can be exercise for you to dig around :)</p>
+
+<p>Also my nice tricks to automate (once you manage to manually publish a page):
+<code>hugo &amp;&amp; git add . &amp;&amp; git commit -m 'fixes' &amp;&amp; git push -u origin master</code></p>
+
+<h2 id="links-that-helps-me">Links that helps me:</h2>
+
+<p>[(very cool to read) Setting Up SSL on AWS CloudFront and S3]</p>
+
+<p><a href="https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/">https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/</a></p>
+
+<p>[(CI) Hugo, S3, Travis CI, oh boy!]</p>
+
+<p><a href="http://continuousfailure.com/post/s3_blog/">http://continuousfailure.com/post/s3_blog/</a></p>
+
+<p>[(CNAME) Setting up custom domain with Github Pages]</p>
+
+<p><a href="http://abhipandey.com/2015/10/setting-up-custom-domain-with-github-pages/">http://abhipandey.com/2015/10/setting-up-custom-domain-with-github-pages/</a></p>
+
+<p><a href="https://discourse.gohugo.io/t/howto-deploying-hugo-on-s3-and-cloudfront/2800">Hugo Forum</a></p>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="http://blog.hurryduckling.com/js/jquery.min.js"></script>
+<script src="http://blog.hurryduckling.com/js/bootstrap.min.js"></script>
+<script src="http://blog.hurryduckling.com/js/jquery.cookie.js"> </script>
+<script src="http://blog.hurryduckling.com/js/ekko-lightbox.js"></script>
+<script src="http://blog.hurryduckling.com/js/jquery.scrollTo.min.js"></script>
+<script src="http://blog.hurryduckling.com/js/masonry.pkgd.min.js"></script>
+<script src="http://blog.hurryduckling.com/js/imagesloaded.pkgd.min.js"></script>
+<script src="http://blog.hurryduckling.com/js/owl.carousel.min.js"></script>
+<script src="http://blog.hurryduckling.com/js/front.js"></script>
+
+</body>
+</html>

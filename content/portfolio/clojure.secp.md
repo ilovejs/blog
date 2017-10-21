@@ -15,7 +15,6 @@ Watched a talk by David Nolen about clojure.spec
 
 URL: https://www.youtube.com/watch?v=Rlu-X5AqWXw
 
-
 New features give you ability to:
 
 * run quick check kind of test, find the minimal failing case.
@@ -26,7 +25,6 @@ New features give you ability to:
 * generate examples from your spec, using `exercise`
 * merge spec by `s/cat`
 * describe a spec `describe`
-
 
 Write code that meet expectations !!
 
