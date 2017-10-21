@@ -5,6 +5,4 @@ hugo new post/first.md
 
 hugo -s --help
 
-hugo
-
-git add . && git commit -m 'fixes' && git push -u origin master
+hugo && git add . && git commit -m 'fixes' && git push -u origin master
