@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fast on Michael&#39;s Toolbox</title>
-    <link>https://hurryduckling.com/tags/fast/</link>
+    <link>https://blog.hurryduckling.com/tags/fast/</link>
     <description>Recent content in Fast on Michael&#39;s Toolbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
     <lastBuildDate>Sat, 14 Oct 2017 13:07:01 +1100</lastBuildDate>
     
-	<atom:link href="https://hurryduckling.com/tags/fast/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.hurryduckling.com/tags/fast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exploding lines into lines</title>
-      <link>https://hurryduckling.com/portfolio/vimmer/</link>
+      <link>https://blog.hurryduckling.com/portfolio/vimmer/</link>
       <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
       
-      <guid>https://hurryduckling.com/portfolio/vimmer/</guid>
+      <guid>https://blog.hurryduckling.com/portfolio/vimmer/</guid>
       <description>This tutorial teach you how to paste a block of text into individual lines. Gif animation display at the end.
 Suppose you have: // Comment1 // Comment2 // Comment3  To be exploded into each line of below:
 foo = 1; bar = 2; baz = 3;  As this form:
