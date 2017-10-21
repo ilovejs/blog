@@ -56,20 +56,20 @@ I use `public` folder in version control to push to github. I'v put CNAME file i
 
 AWS:
 ----
-![](/img/aws_v2.png)
+![](/img/hugo/aws_v2.png)
 ==> notice I use `ilovejs.github.io` not appending `\blog` !!!
 
 Github repo:
 ------------
-![](/img/github.png)
+![](/img/hugo/github.png)
 
 Git repo setting for git page:
 ------------------------------
-![](/img/git_page_setups.png)
+![](/img/hugo/git_page_setups.png)
 
 Hugo folder structure:
 ----------------------
-![](/img/hugo.png)
+![](/img/hugo/hugo.png)
 
 Command to debug network:
 -------------------------

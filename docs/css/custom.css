@@ -1,1 +1,5 @@
 /* your styles go here */
+img {
+    max-height: 400px;
+    max-width : 760px;
+}
