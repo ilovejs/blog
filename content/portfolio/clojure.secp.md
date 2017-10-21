@@ -1,4 +1,3 @@
-
 +++
 showonlyimage = true
 draft = false
