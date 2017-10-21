@@ -1,15 +1,15 @@
 +++
+image = "img/portfolio/a4-paper.jpg"
+showonlyimage = true
 draft = false
 date = 2017-10-14T13:07:01+11:00
-title = ""
+title = "How to build hugo static blog on github with custom domain"
 weight = 0
 tags = [ "Development", "Blogging" ]
 categories = [ "Development" ]
 series = [ "devops" ]
 slug = "build_hugo_blog"
 +++
-
-How to build hugo static blog on github with custom domain
 
 Tools:
     github, git, hugo, amazon route 53, buy your domain via amazon $12 dollar, markdown, vscode
@@ -56,20 +56,20 @@ I use `public` folder in version control to push to github. I'v put CNAME file i
 
 AWS:
 ----
-![img](/img/aws_v2.png)
+![](/img/aws_v2.png)
 ==> notice I use `ilovejs.github.io` not appending `\blog` !!!
 
 Github repo:
 ------------
-![img](/img/github.png)
+![](/img/github.png)
 
 Git repo setting for git page:
 ------------------------------
-![img](/img/git_page_setups.png)
+![](/img/git_page_setups.png)
 
 Hugo folder structure:
 ----------------------
-![img](/img/hugo.png)
+![](/img/hugo.png)
 
 Command to debug network:
 -------------------------
