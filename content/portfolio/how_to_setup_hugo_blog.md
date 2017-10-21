@@ -56,7 +56,8 @@ I use `public` folder in version control to push to github. I'v put CNAME file i
 
 AWS:
 ----
-![img](/img/aws.png)
+![img](/img/aws_v2.png)
+==> notice I use `ilovejs.github.io` not appending `\blog` !!!
 
 Github repo:
 ------------
