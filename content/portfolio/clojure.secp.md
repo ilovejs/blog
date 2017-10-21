@@ -2,7 +2,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "/hugo_blog/img/clojure/clojure_spec.png"
+image = "/blog/img/clojure/clojure_spec.png"
 date = 2017-10-21T16:04:01+11:00
 title = "Note taken from David Nolen's Talk on Clojure Spec"
 weight = 0
