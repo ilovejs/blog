@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = ""
+image = "/img/favicon.png"
 date = 2017-11-10T10:04:01+11:00
 title = "My Vscode Config Tips"
 weight = 0
