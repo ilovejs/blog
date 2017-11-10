@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
-    <lastBuildDate>Sat, 21 Oct 2017 16:04:01 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2017 10:04:01 +1100</lastBuildDate>
     
 	<atom:link href="http://blog.hurryduckling.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Blogging</title>
       <link>http://blog.hurryduckling.com/tags/blogging/</link>
-      <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
+      <pubDate>Fri, 10 Nov 2017 10:04:01 +1100</pubDate>
       
       <guid>http://blog.hurryduckling.com/tags/blogging/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Development</title>
       <link>http://blog.hurryduckling.com/tags/development/</link>
-      <pubDate>Sat, 21 Oct 2017 16:04:01 +1100</pubDate>
+      <pubDate>Fri, 10 Nov 2017 10:04:01 +1100</pubDate>
       
       <guid>http://blog.hurryduckling.com/tags/development/</guid>
       <description></description>
@@ -54,6 +54,15 @@
       <pubDate>Sat, 14 Oct 2017 13:07:01 +1100</pubDate>
       
       <guid>http://blog.hurryduckling.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>http://blog.hurryduckling.com/tags/tool/</link>
+      <pubDate>Fri, 10 Nov 2017 10:04:01 +1100</pubDate>
+      
+      <guid>http://blog.hurryduckling.com/tags/tool/</guid>
       <description></description>
     </item>
     

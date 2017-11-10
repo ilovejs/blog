@@ -7,10 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2017 Michael Zhuang (SYD)</copyright>
-    <lastBuildDate>Sat, 21 Oct 2017 16:04:01 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2017 10:04:01 +1100</lastBuildDate>
     
 	<atom:link href="http://blog.hurryduckling.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Vscode Config Tips</title>
+      <link>http://blog.hurryduckling.com/portfolio/vscode/</link>
+      <pubDate>Fri, 10 Nov 2017 10:04:01 +1100</pubDate>
+      
+      <guid>http://blog.hurryduckling.com/portfolio/vscode/</guid>
+      <description> Plugins  React
+https://code.visualstudio.com/docs/nodejs/reactjs-tutorial
+ cppTools
+ get started
+https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/Getting%20started.md
+ mingw setups
+https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/LanguageServer/MinGW.md
+ debug
+https://github.com/Microsoft/vscode-cpptools/blob/master/launch.md
+ vs c++ team blog
+https://blogs.msdn.microsoft.com/vcblog/2017/06/27/visual-studio-code-cc-extension-june-2017-update/
+    </description>
+    </item>
+    
+    <item>
+      <title>Unix Network Commands</title>
+      <link>http://blog.hurryduckling.com/portfolio/unix_network_cmd/</link>
+      <pubDate>Fri, 10 Nov 2017 10:04:01 +1100</pubDate>
+      
+      <guid>http://blog.hurryduckling.com/portfolio/unix_network_cmd/</guid>
+      <description> traceroute wait time 3s, send 1 query for each, max hop is 16. So stop at the 16th query to map out network layout.
+traceroute -w 3 -q 1 -m 16 blog.hurryduckling.com  </description>
+    </item>
     
     <item>
       <title>Note taken from David Nolen&#39;s Talk on Clojure Spec</title>
